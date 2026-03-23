@@ -1,0 +1,60 @@
+# Environments
+venv/
+.venv/
+env/
+.env/
+.idea/
+.vscode/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Streamlit
+.streamlit/
+*/.streamlit/config.toml
+
+# Data (Ignore large datasets, keep mock data if any)
+data/Official-SSDD-OPEN/
+data/yolo_format/
+data/samples/
+*.zip
+*.tar.gz
+*.rar
+
+# Models and runs
+models/runs/
+*.pt
+
+# Outputs
+outputs/
+*.pdf
+*.html
+*.gif
+
+# OS Files
+.DS_Store
+Thumbs.db

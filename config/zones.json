@@ -1,0 +1,64 @@
+{
+  "zones": [
+    {
+      "name": "EEZ Boundary",
+      "type": "eez",
+      "alert_level": "HIGH",
+      "color": "#FF4444",
+      "coordinates": [
+        [80.0, 12.0],
+        [80.5, 12.0],
+        [80.5, 12.5],
+        [80.0, 12.5],
+        [80.0, 12.0]
+      ],
+      "pixel_coordinates": [
+        [100, 100],
+        [500, 100],
+        [500, 500],
+        [100, 500],
+        [100, 100]
+      ]
+    },
+    {
+      "name": "Fishing Ban Zone",
+      "type": "fishing_ban",
+      "alert_level": "MEDIUM",
+      "color": "#FFA500",
+      "coordinates": [
+        [80.1, 12.1],
+        [80.3, 12.1],
+        [80.3, 12.3],
+        [80.1, 12.3],
+        [80.1, 12.1]
+      ],
+      "pixel_coordinates": [
+        [150, 150],
+        [350, 150],
+        [350, 350],
+        [150, 350],
+        [150, 150]
+      ]
+    },
+    {
+      "name": "Port Exclusion Zone",
+      "type": "port_exclusion",
+      "alert_level": "HIGH",
+      "color": "#FF0000",
+      "coordinates": [
+        [80.2, 12.2],
+        [80.25, 12.2],
+        [80.25, 12.25],
+        [80.2, 12.25],
+        [80.2, 12.2]
+      ],
+      "pixel_coordinates": [
+        [200, 200],
+        [300, 200],
+        [300, 300],
+        [200, 300],
+        [200, 200]
+      ]
+    }
+  ]
+}
